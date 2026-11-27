@@ -1,10 +1,6 @@
 class Solution(object):
     def commonFactors(self, a, b):
-        """
-        :type a: int
-        :type b: int
-        :rtype: int
-        """
+        
         x, y = a, b
         while y:
             x, y = y, x % y
